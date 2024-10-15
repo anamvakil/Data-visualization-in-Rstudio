@@ -43,8 +43,8 @@ Once we have created the bar charts, we can see that it is not easy to compare t
 
 The scenario mentioned below was a part of the hands-on activity given to us during our data analytics course and we were asked to solve it.
 
-After considering all the data, your stakeholder decides to send the promotion to families that make online bookings for city hotels. The online segment is the fastest growing segment, and families tend to spend more at city hotels than other types of guests.
-Your stakeholder asks if you can create a plot that shows the relationship between lead time and guests traveling with children for online bookings at city hotels. This will give her a better idea of the specific timing for the promotion.
+After considering all the data, your stakeholder decides to send the promotion to families that make online bookings for city hotels. The online segment is the fastest-growing segment, and families tend to spend more at city hotels than other types of guests.
+Your stakeholder asks if you can create a plot that shows the relationship between lead time and guests travelling with children for online bookings at city hotels. This will give her a better idea of the specific timing for the promotion.
 
 Approach:
 1) Filter the Data
@@ -70,3 +70,42 @@ There is also another way to do this by using the pipe operator (%\>%)
 
 Conclusion:
 Based on your previous filter, this scatterplot shows data for online bookings for city hotels. The plot reveals that bookings with children tend to have a shorter lead time, and bookings with 3 children have a significantly shorter lead time (\<200 days). So, promotions targeting families can be made closer to the valid booking dates.
+
+## Annotations and Saving
+
+There are times when we want to create a cleaned and labelled version of our data visualization and save it as a .png file to include it in a presentation. Let's go ahead and create two bar charts one for 'city hotel' and one for 'resort hotel'
+
+![image](https://github.com/user-attachments/assets/768b2a1c-64a7-4912-816c-cddc82a9459f)
+
+In this visualization, it is difficult to say what is the bar chart indicating or where is the data from and hence it is important to add titles to our charts by using the lab() and adding a short descriptive title as shown below:
+
+![image](https://github.com/user-attachments/assets/37a5df96-766e-4d2b-8bec-8d101e02e287)
+
+As you can see we get the title describing our chart by using the above code chunk but we dont know where the details are coming from or which year this data belongs and in order to that lets find out these details.
+
+![image](https://github.com/user-attachments/assets/a96428b6-021b-42c0-9c77-0b6032e5f42b)
+
+To use this information in our labeling we need to save this data in a variable using the following code
+
+![image](https://github.com/user-attachments/assets/20b3b8ad-855d-43f3-9c96-f649a64a464a)
+
+Lets change the subtitles into captions and make the X and Y axis more clear.
+
+![image](https://github.com/user-attachments/assets/915f2f99-86b8-44a5-be82-e020b25f7f67)
+
+## Saving the chart
+ Using ggsave() to save the chart in a .png file that gets saved in the File folder in the environment pane
+
+![image](https://github.com/user-attachments/assets/5ea9993e-9105-4f9d-b67a-6da6181ab6b9)
+
+# Exporting my R markdown notebook
+
+![image](https://github.com/user-attachments/assets/35e295c9-f098-4a0b-9a1d-9b4712508064)
+
+
+
+
+
+
+
+
