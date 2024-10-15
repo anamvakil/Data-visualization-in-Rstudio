@@ -1,6 +1,8 @@
 # Data Visualization in RStudio
 
 ## 1. Creating data frame and storing .csv files
+
+To read .csv files in RStudio we need to make a dataframe and then store the .csv file to access it. To get a quick look into the table we can use head() which can help us retrieve the first 6 rows to give us an overview of the table. If you only want to retrieve the column names of the table we can use colnames()
  
 ![image](https://github.com/user-attachments/assets/9ad2ed4b-9348-4a67-994c-582f0aa4225c)
 
@@ -10,13 +12,27 @@
 
 ## 2. Creating a Plot
 
+If we want to create any kind of visualization in RStudio we need to install the ggplot2 library before we go ahead. Listing down the functions used in the image below: 
+
+1. ggplot2 is a system for declaratively creating graphics, based on The Grammar of Graphics. You provide the data, tell ggplot2 how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details 
+2. geom_point: 
+The point geom is used to create scatterplots. The scatterplot is most useful for displaying the relationship between two continuous variables.
+
+Note: The definitions were taken from the [website](https://ggplot2.tidyverse.org/)
+
 ![image](https://github.com/user-attachments/assets/e5f9c068-e106-4743-8d9d-c3ecb9cd61db)
 
 ![image](https://github.com/user-attachments/assets/4a87a64a-a698-424e-bda1-215d20a456fc)
 
 ## Exploring different Charts
 
-Creating bar charts is of great help when we want to make use of filters. We can do that by showing each hotel type and market segment in the bar chart by using different colours to represent each segment.
+Creating bar charts is of great help when we want to make use of filters. We can do that by showing each hotel type and market segment in the bar chart by using different colours to represent each segment. Listing down the functions with their definitions:
+
+1. geom_bar: 
+The bar geom is used to create bar charts. A barplot is used to display the relationship between a numeric and a categorical variable.
+
+3. facet_wrap:
+facet_wrap() wraps a 1d sequence of panels into 2d.
 
  ![image](https://github.com/user-attachments/assets/25d482e8-7724-400c-9cf5-e0748a91dbf8)
 
