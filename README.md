@@ -1,4 +1,4 @@
-# Hotel Data Analysis in RStudio
+# Hotel Bookings Data Analysis in RStudio
 
 ## 1. Creating data frames and storing .csv files
 
