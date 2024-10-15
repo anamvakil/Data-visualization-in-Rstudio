@@ -1,4 +1,4 @@
-# Data Visualization in RStudio
+# Hotel Data Analysis in RStudio
 
 ## 1. Creating data frame and storing .csv files
 
