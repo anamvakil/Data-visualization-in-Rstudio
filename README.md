@@ -1,6 +1,6 @@
 # Hotel Data Analysis in RStudio
 
-## 1. Creating data frame and storing .csv files
+## 1. Creating data frames and storing .csv files
 
 To read .csv files in RStudio we need to make a dataframe and then store the .csv file to access it. To get a quick look into the table we can use head() which can help us retrieve the first 6 rows to give us an overview of the table. If you only want to retrieve the column names of the table we can use colnames()
  
@@ -14,9 +14,10 @@ To read .csv files in RStudio we need to make a dataframe and then store the .cs
 
 If we want to create any kind of visualization in RStudio we need to install the ggplot2 library before we go ahead. Listing down the functions used in the image below: 
 
-1. ggplot2 is a system for declaratively creating graphics, based on The Grammar of Graphics. You provide the data, tell ggplot2 how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details 
+1. ggplot2 is a system for declaratively creating graphics, based on The Grammar of Graphics. All one has to do is provide the data, tell ggplot2 how to map variables to aesthetics, and what graphical primitives to use. Everything else is taken care of by ggplot2. 
+
 2. geom_point: 
-The point geom is used to create scatterplots. The scatterplot is most useful for displaying the relationship between two continuous variables.
+The point geom is used to create scatterplots which are most useful for displaying the relationship between two continuous variables.
 
 Note: The definitions were taken from the [website](https://ggplot2.tidyverse.org/)
 
